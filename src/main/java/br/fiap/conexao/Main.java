@@ -7,10 +7,10 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        //System.out.println(Conexao.conectar());
+        System.out.println(Conexao.conectar());
         CategoriaDAO dao = new CategoriaDAO();
-        //Categoria categoria = new Categoria(4L, "moradia");
-        //dao.inserir(categoria);
+        //Categoria categoria = new Categoria(6L, "festa");
+       // dao.inserir(categoria);
 
         List<Categoria> lista = dao.listar();
         for(Categoria categoria : lista) {
